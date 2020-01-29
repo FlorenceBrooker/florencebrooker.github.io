@@ -1,0 +1,27 @@
+/* Your custom css code goes here */
+
+.scroll-down {
+
+	position: absolute;
+	left: 1308px;
+	top: 550px;
+	width: 50px;
+}
+
+
+.scroll {
+
+	position: absolute;
+	left:1300px;
+	top: 590px;
+}
+@media only screen and (max-width: 600px) {
+  
+  .scroll-down {
+    display: none;
+  }
+
+  .scroll {
+  	display: none;
+  }
+}
